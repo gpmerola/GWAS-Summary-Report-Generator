@@ -8,7 +8,7 @@ main.py: Main script to read the .gz file, perform calculations, and generate pl
 plot.py: Contains functions to generate QQ plot, Manhattan plot, p-value histogram, effect size distribution plot, volcano plot, and population stratification assessment.
 calculations.py: Contains functions for LD score regression, displaying top SNPs, calculating power, column statistics, minor allele frequency, genomic inflation factor, heritability, and effective sample size.
 
-##Usage
+## Usage
 Ensure you have Python 3 installed.
 Install the necessary dependencies (see below).
 Place your GWAS summary statistics .gz file in the project directory.
@@ -17,10 +17,10 @@ Run the main script:
 sh
 Copia codice
 python main.py
-##Dependencies
+## Dependencies
 Install the required Python packages using pip. You can create a virtual environment to manage dependencies.
 
-###Dependencies Installation
+### Dependencies Installation
 Create and activate a virtual environment (optional but recommended):
 
 sh
@@ -41,7 +41,7 @@ scipy
 statsmodels
 scikit-learn
 
-##Output
+## Output
 The script will generate the following output files in a directory named after the input file (without the .gz extension):
 
 log.txt: Contains logs and summaries of the calculations.
@@ -52,7 +52,7 @@ effect_size_distribution.png: Histogram of effect sizes.
 volcano_plot.png: Volcano plot of effect sizes vs. p-values.
 population_stratification.png: PCA plot for population stratification assessment.
 
-##Functions
+## Functions
 main.py
 read_gz_file(file_path, n_lines=10): Reads the .gz file, performs various calculations, generates plots, and logs the results.
 plot.py

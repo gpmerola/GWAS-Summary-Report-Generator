@@ -14,9 +14,11 @@ Install the necessary dependencies (see below).
 Place your GWAS summary statistics .gz file in the project directory.
 Modify the file_path variable in main.py to point to your .gz file.
 Run the main script:
-sh
-Copia codice
+
+'''
 python main.py
+'''
+
 ## Dependencies
 Install the required Python packages using pip. You can create a virtual environment to manage dependencies.
 

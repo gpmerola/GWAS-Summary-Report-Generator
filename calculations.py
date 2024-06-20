@@ -35,7 +35,7 @@ def calculate_power(df, alpha=0.05, effect_size=0.2):
 def calculate_column_statistics(df, numeric_cols):
     output = "\nColumn Statistics:\n"
     for col in numeric_cols:
-        if col in df.columns:
+        if col in df.columns and col not in ['BP', 'CHR']:
             mean = df[col].mean()
             std = df[col].std()
             output += f"{col} - Mean: {mean}, SD: {std}\n"

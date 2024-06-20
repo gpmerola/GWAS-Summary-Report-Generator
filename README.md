@@ -1,7 +1,7 @@
 # GWAS-Summary-Report-Generator
 
 ## Overview
-This project is designed to read and analyze GWAS (Genome-Wide Association Study) summary statistics from a .gz file. It performs various statistical calculations and generates several plots to visualize the data. The primary script is main.py, which calls functions from plot.py and calculations.py.
+This project is designed to read and analyze GWAS (Genome-Wide Association Study) summary statistics from a .gz file. It performs various statistical calculations and generates several plots to visualize the data.
 
 ## Structure
 main.py: Main script to read the .gz file, perform calculations, and generate plots.

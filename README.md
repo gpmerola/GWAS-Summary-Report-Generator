@@ -18,6 +18,23 @@ This project is designed to read and analyze GWAS (Genome-Wide Association Study
    ```sh
    python main.py
    ```
+
+The `.gz` file must contain the following columns for the script to work correctly:
+
+- `CHR`: Chromosome number
+- `BP`: Base-pair position
+- `ID`: SNP identifier
+- `A1`: First allele
+- `A2`: Second allele
+- `BETA`: Effect size estimate
+- `SE`: Standard error of the effect size estimate
+- `P`: P-value for the association
+- `INFO`: Imputation information score
+- `NCAS`: Number of cases
+- `NCON`: Number of controls
+
+If any of these columns are missing, the script will log an error and stop execution.
+
    
 ## Dependencies
 Create and activate a virtual environment (optional but recommended):

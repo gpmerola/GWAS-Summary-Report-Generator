@@ -4,21 +4,21 @@
 This project is designed to read and analyze GWAS (Genome-Wide Association Study) summary statistics from a .gz file. It performs various statistical calculations and generates several plots to visualize the data.
 
 ## Structure
-main.py: Main script to read the .gz file, perform calculations, and generate plots.
-plot.py: Contains functions to generate QQ plot, Manhattan plot, p-value histogram, effect size distribution plot, volcano plot, and population stratification assessment.
-calculations.py: Contains functions for LD score regression, displaying top SNPs, calculating power, column statistics, minor allele frequency, genomic inflation factor, heritability, and effective sample size.
+- `main.py`: Main script to read the `.gz` file, perform calculations, and generate plots.
+- `plot.py`: Contains functions to generate QQ plot, Manhattan plot, p-value histogram, effect size distribution plot, volcano plot, and population stratification assessment.
+- `calculations.py`: Contains functions for LD score regression, displaying top SNPs, calculating power, column statistics, minor allele frequency, genomic inflation factor, heritability, and effective sample size.
 
 ## Usage
-Ensure you have Python 3 installed.
-Install the necessary dependencies (see below).
-Place your GWAS summary statistics .gz file in the project directory.
-Modify the file_path variable in main.py to point to your .gz file.
-Run the main script:
+1. Ensure you have Python 3 installed.
+2. Install the necessary dependencies (see below).
+3. Place your GWAS summary statistics `.gz` file in the project directory.
+4. Modify the `file_path` variable in `main.py` to point to your `.gz` file.
+5. Run the main script:
 
-'''
-python main.py
-'''
-
+   ```sh
+   python main.py
+   ```
+   
 ## Dependencies
 Install the required Python packages using pip. You can create a virtual environment to manage dependencies.
 

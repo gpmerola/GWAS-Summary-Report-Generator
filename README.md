@@ -2,11 +2,11 @@
 This project is designed to read and analyze GWAS (Genome-Wide Association Study) summary statistics from a .gz file. It performs various statistical calculations and generates several plots to visualize the data.
 
 ## Table of Contents
-- [Installation](#installation)
+- [Structure](#structure)
 - [Usage](#usage)
-- [Input Files](#input-files)
-- [Output Files](#output-files)
-- [Example](#example)
+- [Dependencies](#dependencies)
+- [Output](#output)
+- [Functions](#functions)
 - [License](#license)
 
 ## Structure

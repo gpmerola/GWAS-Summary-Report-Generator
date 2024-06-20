@@ -22,26 +22,26 @@ This project is designed to read and analyze GWAS (Genome-Wide Association Study
 ## Dependencies
 Install the required Python packages using pip. You can create a virtual environment to manage dependencies.
 
-### Dependencies Installation
 Create and activate a virtual environment (optional but recommended):
 
-sh
-Copia codice
-python -m venv venv
-source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+   ```sh
+   python -m venv venv
+   source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+   ```
+
 Install the required packages:
 
-sh
-Copia codice
-pip install -r requirements.txt
-requirements.txt
-Copia codice
-numpy
-pandas
-matplotlib
-scipy
-statsmodels
-scikit-learn
+   ```sh
+   pip install -r requirements.txt
+   requirements.txt
+   Copia codice
+   numpy
+   pandas
+   matplotlib
+   scipy
+   statsmodels
+   scikit-learn
+   ```
 
 ## Output
 The script will generate the following output files in a directory named after the input file (without the .gz extension):

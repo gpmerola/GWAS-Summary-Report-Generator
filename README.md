@@ -71,3 +71,6 @@ The script will generate the following output files in a directory named after t
    - calculate_genomic_inflation_factor(df): Calculates the genomic inflation factor (λ GC).
    - calculate_heritability(df): Calculates narrow-sense heritability (h²).
    - calculate_effective_sample_size(df): Calculates the effective sample size (NEFF).
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
